@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Chefling Assignment/Pods-Chefling Assignment-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

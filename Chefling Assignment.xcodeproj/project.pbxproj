@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504DB76CB661890B3A5000CE /* Pods_Chefling_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707DC8D06B4AF6EF3265DB19 /* Pods_Chefling_Assignment.framework */; };
 		871146EF22C3F8A2009FBE40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871146EE22C3F8A2009FBE40 /* AppDelegate.swift */; };
 		871146F122C3F8A2009FBE40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871146F022C3F8A2009FBE40 /* ViewController.swift */; };
 		871146F422C3F8A2009FBE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871146F222C3F8A2009FBE40 /* Main.storyboard */; };
 		871146F722C3F8A2009FBE40 /* Chefling_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 871146F522C3F8A2009FBE40 /* Chefling_Assignment.xcdatamodeld */; };
-		871146F922C3F8A6009FBE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871146F822C3F8A6009FBE40 /* Assets.xcassets */; };
 		871146FC22C3F8A6009FBE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871146FA22C3F8A6009FBE40 /* LaunchScreen.storyboard */; };
+		8759367222C818EA00907F01 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759367122C818EA00907F01 /* Utility.swift */; };
+		8759367422C81C1A00907F01 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759367322C81C1A00907F01 /* CoreDataModel.swift */; };
+		8779742622C4D2EE005DCDF0 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779742522C4D2EE005DCDF0 /* NetworkCall.swift */; };
+		8779742822C4E753005DCDF0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779742722C4E753005DCDF0 /* Model.swift */; };
+		8779742B22C4F9F2005DCDF0 /* OpenWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779742A22C4F9F2005DCDF0 /* OpenWeatherModel.swift */; };
+		8779742D22C6223A005DCDF0 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779742C22C6223A005DCDF0 /* LocationViewController.swift */; };
+		8779742F22C68C44005DCDF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8779742E22C68C44005DCDF0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CD24D898E5BE9D8BCE432F3 /* Pods-Chefling Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chefling Assignment.release.xcconfig"; path = "Target Support Files/Pods-Chefling Assignment/Pods-Chefling Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		3E652ECCEF24A8CA191C49FD /* Pods-Chefling Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chefling Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Chefling Assignment/Pods-Chefling Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		707DC8D06B4AF6EF3265DB19 /* Pods_Chefling_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chefling_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		871146EB22C3F8A2009FBE40 /* Chefling Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chefling Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		871146EE22C3F8A2009FBE40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		871146F022C3F8A2009FBE40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		871146F322C3F8A2009FBE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		871146F622C3F8A2009FBE40 /* Chefling_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chefling_Assignment.xcdatamodel; sourceTree = "<group>"; };
-		871146F822C3F8A6009FBE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		871146FB22C3F8A6009FBE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		871146FD22C3F8A6009FBE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8759367122C818EA00907F01 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		8759367322C81C1A00907F01 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		8779742522C4D2EE005DCDF0 /* NetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
+		8779742722C4E753005DCDF0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8779742A22C4F9F2005DCDF0 /* OpenWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherModel.swift; sourceTree = "<group>"; };
+		8779742C22C6223A005DCDF0 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		8779742E22C68C44005DCDF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504DB76CB661890B3A5000CE /* Pods_Chefling_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		500C3D7BD83CB5D5FF9CCB29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				707DC8D06B4AF6EF3265DB19 /* Pods_Chefling_Assignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		871146E222C3F8A2009FBE40 = {
 			isa = PBXGroup;
 			children = (
 				871146ED22C3F8A2009FBE40 /* Chefling Assignment */,
 				871146EC22C3F8A2009FBE40 /* Products */,
+				F0AAE842B86697437B5D30A6 /* Pods */,
+				500C3D7BD83CB5D5FF9CCB29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +85,36 @@
 			children = (
 				871146EE22C3F8A2009FBE40 /* AppDelegate.swift */,
 				871146F022C3F8A2009FBE40 /* ViewController.swift */,
+				8779742C22C6223A005DCDF0 /* LocationViewController.swift */,
+				8779742922C4F9D6005DCDF0 /* Model */,
+				8779742522C4D2EE005DCDF0 /* NetworkCall.swift */,
+				8759367122C818EA00907F01 /* Utility.swift */,
 				871146F222C3F8A2009FBE40 /* Main.storyboard */,
-				871146F822C3F8A6009FBE40 /* Assets.xcassets */,
+				8779742E22C68C44005DCDF0 /* Assets.xcassets */,
 				871146FA22C3F8A6009FBE40 /* LaunchScreen.storyboard */,
 				871146FD22C3F8A6009FBE40 /* Info.plist */,
 				871146F522C3F8A2009FBE40 /* Chefling_Assignment.xcdatamodeld */,
 			);
 			path = "Chefling Assignment";
+			sourceTree = "<group>";
+		};
+		8779742922C4F9D6005DCDF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8779742722C4E753005DCDF0 /* Model.swift */,
+				8779742A22C4F9F2005DCDF0 /* OpenWeatherModel.swift */,
+				8759367322C81C1A00907F01 /* CoreDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0AAE842B86697437B5D30A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E652ECCEF24A8CA191C49FD /* Pods-Chefling Assignment.debug.xcconfig */,
+				2CD24D898E5BE9D8BCE432F3 /* Pods-Chefling Assignment.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8711470022C3F8A6009FBE40 /* Build configuration list for PBXNativeTarget "Chefling Assignment" */;
 			buildPhases = (
+				CBA1985F5F69A765BD82B13E /* [CP] Check Pods Manifest.lock */,
 				871146E722C3F8A2009FBE40 /* Sources */,
 				871146E822C3F8A2009FBE40 /* Frameworks */,
 				871146E922C3F8A2009FBE40 /* Resources */,
+				AC0C3D8BA87427849F108DDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +178,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				871146FC22C3F8A6009FBE40 /* LaunchScreen.storyboard in Resources */,
-				871146F922C3F8A6009FBE40 /* Assets.xcassets in Resources */,
+				8779742F22C68C44005DCDF0 /* Assets.xcassets in Resources */,
 				871146F422C3F8A2009FBE40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC0C3D8BA87427849F108DDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chefling Assignment/Pods-Chefling Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chefling Assignment/Pods-Chefling Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chefling Assignment/Pods-Chefling Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA1985F5F69A765BD82B13E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chefling Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		871146E722C3F8A2009FBE40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8779742D22C6223A005DCDF0 /* LocationViewController.swift in Sources */,
+				8779742822C4E753005DCDF0 /* Model.swift in Sources */,
 				871146F122C3F8A2009FBE40 /* ViewController.swift in Sources */,
+				8759367422C81C1A00907F01 /* CoreDataModel.swift in Sources */,
+				8779742B22C4F9F2005DCDF0 /* OpenWeatherModel.swift in Sources */,
+				8759367222C818EA00907F01 /* Utility.swift in Sources */,
 				871146EF22C3F8A2009FBE40 /* AppDelegate.swift in Sources */,
+				8779742622C4D2EE005DCDF0 /* NetworkCall.swift in Sources */,
 				871146F722C3F8A2009FBE40 /* Chefling_Assignment.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +384,7 @@
 		};
 		8711470122C3F8A6009FBE40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E652ECCEF24A8CA191C49FD /* Pods-Chefling Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +403,7 @@
 		};
 		8711470222C3F8A6009FBE40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD24D898E5BE9D8BCE432F3 /* Pods-Chefling Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
